@@ -4,15 +4,18 @@
 
 # 🧬 Awesome Genomic Analysis Tools 🔬
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+<a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+[![Awesome](https://awesome.re/badge.svg)](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)
 [![Bioinformatics](https://img.shields.io/badge/Domain-Bioinformatics%20%26%20Genomics-0ea5e9?style=flat-square&logo=dna)](https://github.com/ishandutta2007/Awesome-Genomic-Analysis-Tools)
 [![License: MIT](https://img.shields.io/badge/License-MIT-emerald.svg?style=flat-square)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md)
 [![Last Updated](https://img.shields.io/badge/Last%20Updated-October%202026-indigo.svg?style=flat-square)](https://github.com/ishandutta2007/Awesome-Genomic-Analysis-Tools)
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
 **A carefully curated directory of leading SaaS platforms and top-starred open-source bioinformatics tools for Next-Generation Sequencing (NGS) data processing, variant discovery, secondary analysis, and clinical genomics pipelines.**
 
-[Market Overview](#-sector-overview--market-dynamics) • [SaaS Platforms](#-saashosted-platforms) • [Open-Source Ecosystem](#-open-source-github-projects) • [Pipeline Architecture](#-bioinformatics-pipeline-architecture) • [How to Contribute](#-how-to-contribute)
+[Market Overview](#-sector-overview--market-dynamics) • [SaaS Platforms](#-saashosted-platforms) • [Open-Source Ecosystem](#-open-source-github-projects) • [Pipeline Architecture](#-bioinformatics-pipeline-architecture) • [Star History](#--star-history) • [Support](#-support) • [How to Contribute](#-how-to-contribute)
 
 </div>
 
@@ -229,6 +232,25 @@ We welcome high-quality contributions from the bioinformatics and precision medi
    - For Open-Source tools: include official shields.io star badge linked to stargazers and concise technical highlights.
 4. 🚀 **Commit and push** your changes cleanly.
 5. 📬 **Submit a Pull Request** with a brief summary of the changes.
+
+---
+
+##  Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Genomic-Analysis-Tools&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Genomic-Analysis-Tools&type=date&legend=top-left)
+
+---
+
+## 💖 Support
+
+Thank you for exploring **Awesome-Genomic-Analysis-Tools**! If this curated ecosystem helps your research, clinical pipelines, or computational workflows, please consider supporting the project:
+
+- ⭐ **Star this repository** to help others discover it.
+- 🍴 **Fork and contribute** your favorite pipelines and tools.
+- 📢 **Share with colleagues** in the bioinformatics and genomics community.
+- ☕ **Buy me a coffee / Sponsor**: Support ongoing maintenance and future updates via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+<a href="https://github.com/sponsors/ishandutta2007"><img src="https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-ea4aaa?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Sponsor on GitHub" /></a>
 
 ---
 
