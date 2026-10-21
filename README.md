@@ -65,99 +65,99 @@ The following hosted and cloud-native solutions deliver turnkey secondary and te
 
 Open-source bioinformatics software forms the computational foundation of modern genomics. These tools allow research labs, core facilities, and biopharma teams to construct transparent, audit-ready, and cost-effective pipelines without proprietary vendor lock-in.
 
-*The list below is sorted descending by GitHub Star Count.*
+*The list below is sorted descending by GitHub Stars_Count.*
 
-### 1. 🤖 [Google DeepVariant](https://github.com/google/deepvariant) [![GitHub stars](https://img.shields.io/github/stars/google/deepvariant?style=social&color=white)](https://github.com/google/deepvariant/stargazers)
+### 1. 🤖 [Google DeepVariant](https://github.com/google/deepvariant) [![GitHub_Stars](https://img.shields.io/github/stars/google/deepvariant?style=social&color=white)](https://github.com/google/deepvariant/stargazers)
 - **Primary Focus**: Deep learning-powered variant caller for germline, somatic, and non-human sequencing.
 - **License**: BSD-3-Clause
 - **Key Features**: Uses convolutional neural networks (CNNs) trained on image representations of aligned reads to call SNVs and small indels. Consistently wins PrecisionFDA Truth Challenges for Illumina, PacBio HiFi, and Oxford Nanopore reads.
 
-### 2. ⚡ [Nextflow](https://github.com/nextflow-io/nextflow) [![GitHub stars](https://img.shields.io/github/stars/nextflow-io/nextflow?style=social&color=white)](https://github.com/nextflow-io/nextflow/stargazers)
+### 2. ⚡ [Nextflow](https://github.com/nextflow-io/nextflow) [![GitHub_Stars](https://img.shields.io/github/stars/nextflow-io/nextflow?style=social&color=white)](https://github.com/nextflow-io/nextflow/stargazers)
 - **Primary Focus**: Data-driven computational workflow orchestrator and domain-specific language (DSL).
 - **License**: Apache-2.0
 - **Key Features**: Seamless abstraction across local workstations, HPC clusters (SLURM, SGE), and clouds (AWS Batch, Google Cloud Life Sciences, Azure). Backed by the vibrant [nf-core](https://nf-co.re/) ecosystem of peer-reviewed pipelines.
 
-### 3. 🐍 [Snakemake](https://github.com/snakemake/snakemake) [![GitHub stars](https://img.shields.io/github/stars/snakemake/snakemake?style=social&color=white)](https://github.com/snakemake/snakemake/stargazers)
+### 3. 🐍 [Snakemake](https://github.com/snakemake/snakemake) [![GitHub_Stars](https://img.shields.io/github/stars/snakemake/snakemake?style=social&color=white)](https://github.com/snakemake/snakemake/stargazers)
 - **Primary Focus**: Python-native workflow management system for reproducible and scalable data analysis.
 - **License**: MIT
 - **Key Features**: Rule-based syntax that seamlessly combines Python code with shell commands. Automatic file dependency resolution, native conda/container integration, and cluster execution support.
 
-### 4. 🚀 [STAR Aligner](https://github.com/alexdobin/STAR) [![GitHub stars](https://img.shields.io/github/stars/alexdobin/STAR?style=social&color=white)](https://github.com/alexdobin/STAR/stargazers)
+### 4. 🚀 [STAR Aligner](https://github.com/alexdobin/STAR) [![GitHub_Stars](https://img.shields.io/github/stars/alexdobin/STAR?style=social&color=white)](https://github.com/alexdobin/STAR/stargazers)
 - **Primary Focus**: Ultra-fast universal RNA-seq read aligner.
 - **License**: MIT
 - **Key Features**: Capable of aligning 45 million 2x76bp paired-end reads per hour per processor. Accurately identifies canonical and non-canonical splice junctions, chimeric fusion transcripts, and circular RNAs.
 
-### 5. 🗺️ [Minimap2](https://github.com/lh3/minimap2) [![GitHub stars](https://img.shields.io/github/stars/lh3/minimap2?style=social&color=white)](https://github.com/lh3/minimap2/stargazers)
+### 5. 🗺️ [Minimap2](https://github.com/lh3/minimap2) [![GitHub_Stars](https://img.shields.io/github/stars/lh3/minimap2?style=social&color=white)](https://github.com/lh3/minimap2/stargazers)
 - **Primary Focus**: Versatile pairwise sequence aligner and mapper for long and short reads.
 - **License**: MIT
 - **Key Features**: Standard de facto mapper for Oxford Nanopore and PacBio long reads, spliced cDNA/mRNA, and whole-genome assembly comparisons. Extreme computational efficiency with low memory footprint.
 
-### 6. 🏛️ [GATK (Genome Analysis Toolkit)](https://github.com/broadinstitute/gatk) [![GitHub stars](https://img.shields.io/github/stars/broadinstitute/gatk?style=social&color=white)](https://github.com/broadinstitute/gatk/stargazers)
+### 6. 🏛️ [GATK (Genome Analysis Toolkit)](https://github.com/broadinstitute/gatk) [![GitHub_Stars](https://img.shields.io/github/stars/broadinstitute/gatk?style=social&color=white)](https://github.com/broadinstitute/gatk/stargazers)
 - **Primary Focus**: Industry-standard variant discovery toolkit from the Broad Institute.
 - **License**: Apache-2.0
 - **Key Features**: Gold-standard Best Practices pipelines for germline short variants (`HaplotypeCaller`), somatic mutations (`Mutect2`), copy number alterations (`GermlineCNVCaller`), and structural variants.
 
-### 7. 🛠️ [SAMtools](https://github.com/samtools/samtools) [![GitHub stars](https://img.shields.io/github/stars/samtools/samtools?style=social&color=white)](https://github.com/samtools/samtools/stargazers)
+### 7. 🛠️ [SAMtools](https://github.com/samtools/samtools) [![GitHub_Stars](https://img.shields.io/github/stars/samtools/samtools?style=social&color=white)](https://github.com/samtools/samtools/stargazers)
 - **Primary Focus**: Universal library and utilities for manipulating SAM, BAM, and CRAM alignment files.
 - **License**: MIT / Expat
 - **Key Features**: Indispensable foundational toolkit providing fast indexing, sorting, filtering, merging, depth calculation, and format conversion.
 
-### 8. 🌌 [Galaxy Platform](https://github.com/galaxyproject/galaxy) [![GitHub stars](https://img.shields.io/github/stars/galaxyproject/galaxy?style=social&color=white)](https://github.com/galaxyproject/galaxy/stargazers)
+### 8. 🌌 [Galaxy Platform](https://github.com/galaxyproject/galaxy) [![GitHub_Stars](https://img.shields.io/github/stars/galaxyproject/galaxy?style=social&color=white)](https://github.com/galaxyproject/galaxy/stargazers)
 - **Primary Focus**: Open, web-based graphical scientific workbench.
 - **License**: Academic Free License
 - **Key Features**: Enables researchers without command-line experience to build reproducible pipelines, run thousands of integrated tools, and share workflows and provenance histories.
 
-### 9. 🧬 [BWA (Burrows-Wheeler Aligner)](https://github.com/lh3/bwa) [![GitHub stars](https://img.shields.io/github/stars/lh3/bwa?style=social&color=white)](https://github.com/lh3/bwa/stargazers)
+### 9. 🧬 [BWA (Burrows-Wheeler Aligner)](https://github.com/lh3/bwa) [![GitHub_Stars](https://img.shields.io/github/stars/lh3/bwa?style=social&color=white)](https://github.com/lh3/bwa/stargazers)
 - **Primary Focus**: Accurate and fast reference mapping for short sequencing reads.
 - **License**: GPL-3.0
 - **Key Features**: Home of `BWA-MEM`, the standard aligner used worldwide for Illumina short-read whole-genome and exome sequencing analysis.
 
-### 10. 📊 [MultiQC](https://github.com/MultiQC/MultiQC) [![GitHub stars](https://img.shields.io/github/stars/MultiQC/MultiQC?style=social&color=white)](https://github.com/MultiQC/MultiQC/stargazers)
+### 10. 📊 [MultiQC](https://github.com/MultiQC/MultiQC) [![GitHub_Stars](https://img.shields.io/github/stars/MultiQC/MultiQC?style=social&color=white)](https://github.com/MultiQC/MultiQC/stargazers)
 - **Primary Focus**: Modular aggregate reporting for bioinformatics quality control.
 - **License**: GPL-3.0
 - **Key Features**: Automatically searches directories for logs and output metrics from over 140 bioinformatics tools, generating a unified, publication-ready interactive HTML report.
 
-### 11. 🕸️ [vg (Variation Graph)](https://github.com/vgteam/vg) [![GitHub stars](https://img.shields.io/github/stars/vgteam/vg?style=social&color=white)](https://github.com/vgteam/vg/stargazers)
+### 11. 🕸️ [vg (Variation Graph)](https://github.com/vgteam/vg) [![GitHub_Stars](https://img.shields.io/github/stars/vgteam/vg?style=social&color=white)](https://github.com/vgteam/vg/stargazers)
 - **Primary Focus**: Pangenomic graph tools for reference variation representation.
 - **License**: MIT
 - **Key Features**: Replaces linear reference genomes with variation graphs, eliminating reference bias and dramatically improving variant calling in polymorphic, repetitive genomic loci.
 
-### 12. 📐 [BEDTools](https://github.com/arq5x/bedtools2) [![GitHub stars](https://img.shields.io/github/stars/arq5x/bedtools2?style=social&color=white)](https://github.com/arq5x/bedtools2/stargazers)
+### 12. 📐 [BEDTools](https://github.com/arq5x/bedtools2) [![GitHub_Stars](https://img.shields.io/github/stars/arq5x/bedtools2?style=social&color=white)](https://github.com/arq5x/bedtools2/stargazers)
 - **Primary Focus**: Comprehensive genome arithmetic and interval manipulation engine.
 - **License**: GPL-2.0
 - **Key Features**: The "Swiss Army Knife" of genomics. Performs set theory operations (`intersect`, `merge`, `subtract`, `coverage`) across BED, GFF/GTF, VCF, and BAM intervals in linear time.
 
-### 13. 🐟 [Salmon](https://github.com/COMBINE-lab/salmon) [![GitHub stars](https://img.shields.io/github/stars/COMBINE-lab/salmon?style=social&color=white)](https://github.com/COMBINE-lab/salmon/stargazers)
+### 13. 🐟 [Salmon](https://github.com/COMBINE-lab/salmon) [![GitHub_Stars](https://img.shields.io/github/stars/COMBINE-lab/salmon?style=social&color=white)](https://github.com/COMBINE-lab/salmon/stargazers)
 - **Primary Focus**: Ultra-fast, bias-corrected transcript-level RNA-seq quantification.
 - **License**: GPL-3.0
 - **Key Features**: Uses quasi-mapping and dual-phase optimization to quantify transcript expression directly from FASTQ files in minutes, accounting for sequence-specific and GC biases.
 
-### 14. ✂️ [BCFtools](https://github.com/samtools/bcftools) [![GitHub stars](https://img.shields.io/github/stars/samtools/bcftools?style=social&color=white)](https://github.com/samtools/bcftools/stargazers)
+### 14. ✂️ [BCFtools](https://github.com/samtools/bcftools) [![GitHub_Stars](https://img.shields.io/github/stars/samtools/bcftools?style=social&color=white)](https://github.com/samtools/bcftools/stargazers)
 - **Primary Focus**: High-performance variant calling and VCF/BCF file manipulation.
 - **License**: MIT / Expat
 - **Key Features**: Companion to SAMtools; provides `bcftools call`, variant normalization, filtering, query expressions, merging, and consensus sequence generation.
 
-### 15. 🎲 [FreeBayes](https://github.com/freebayes/freebayes) [![GitHub stars](https://img.shields.io/github/stars/freebayes/freebayes?style=social&color=white)](https://github.com/freebayes/freebayes/stargazers)
+### 15. 🎲 [FreeBayes](https://github.com/freebayes/freebayes) [![GitHub_Stars](https://img.shields.io/github/stars/freebayes/freebayes?style=social&color=white)](https://github.com/freebayes/freebayes/stargazers)
 - **Primary Focus**: Bayesian haplotype-based genetic polymorphism discoverer.
 - **License**: MIT
 - **Key Features**: Calls single nucleotide polymorphisms (SNPs), indels, and complex events based on literal read sequence haplotypes without requiring prior ploidy assumptions.
 
-### 16. 🔬 [IGV (Integrative Genomics Viewer)](https://github.com/igvteam/igv) [![GitHub stars](https://img.shields.io/github/stars/igvteam/igv?style=social&color=white)](https://github.com/igvteam/igv/stargazers)
+### 16. 🔬 [IGV (Integrative Genomics Viewer)](https://github.com/igvteam/igv) [![GitHub_Stars](https://img.shields.io/github/stars/igvteam/igv?style=social&color=white)](https://github.com/igvteam/igv/stargazers)
 - **Primary Focus**: Interactive high-performance visualization tool for large genomic datasets.
 - **License**: MIT
 - **Key Features**: Desktop GUI providing smooth zooming and panning across multi-gigabyte BAM alignments, variant calls, epigenomic tracks, and reference annotations.
 
-### 17. 🔍 [FastQC](https://github.com/s-andrews/FastQC) [![GitHub stars](https://img.shields.io/github/stars/s-andrews/FastQC?style=social&color=white)](https://github.com/s-andrews/FastQC/stargazers)
+### 17. 🔍 [FastQC](https://github.com/s-andrews/FastQC) [![GitHub_Stars](https://img.shields.io/github/stars/s-andrews/FastQC?style=social&color=white)](https://github.com/s-andrews/FastQC/stargazers)
 - **Primary Focus**: Quality control analysis for high-throughput raw sequence reads.
 - **License**: GPL-3.0
 - **Key Features**: The standard first step in every NGS pipeline. Reports per-base sequence quality, GC content distribution, duplication levels, overrepresented sequences, and adapter contamination.
 
-### 18. 🧬 [nf-core/sarek](https://github.com/nf-core/sarek) [![GitHub stars](https://img.shields.io/github/stars/nf-core/sarek?style=social&color=white)](https://github.com/nf-core/sarek/stargazers)
+### 18. 🧬 [nf-core/sarek](https://github.com/nf-core/sarek) [![GitHub_Stars](https://img.shields.io/github/stars/nf-core/sarek?style=social&color=white)](https://github.com/nf-core/sarek/stargazers)
 - **Primary Focus**: Production-ready Nextflow workflow for germline and somatic variant calling.
 - **License**: MIT
 - **Key Features**: End-to-end WGS/WES pipeline integrating BWA-MEM2, GATK HaplotypeCaller, Mutect2, Strelka2, DeepVariant, and MultiQC with built-in container and cloud profiles.
 
-### 19. ✂️ [Manta](https://github.com/Illumina/manta) [![GitHub stars](https://img.shields.io/github/stars/Illumina/manta?style=social&color=white)](https://github.com/Illumina/manta/stargazers)
+### 19. ✂️ [Manta](https://github.com/Illumina/manta) [![GitHub_Stars](https://img.shields.io/github/stars/Illumina/manta?style=social&color=white)](https://github.com/Illumina/manta/stargazers)
 - **Primary Focus**: Structural variant and large indel discovery for paired and single sequencing samples.
 - **License**: GPL-3.0
 - **Key Features**: Developed by Illumina; rapidly discovers translocations, inversions, and large deletions from breakends and discordant read pairs.
@@ -229,7 +229,7 @@ We welcome high-quality contributions from the bioinformatics and precision medi
 3. 📝 **Add or update an entry** in `README.md`:
    - Follow the established markdown formatting.
    - For SaaS tools: include verified starting pricing, trial limits, and company size.
-   - For Open-Source tools: include official shields.io star badge linked to stargazers and concise technical highlights.
+   - For Open-Source tools: include official shields.io Stars_Badge linked to stargazers and concise technical highlights.
 4. 🚀 **Commit and push** your changes cleanly.
 5. 📬 **Submit a Pull Request** with a brief summary of the changes.
 
