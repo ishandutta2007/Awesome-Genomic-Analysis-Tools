@@ -1,0 +1,207 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="100%" height="100%" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070b14"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#090d16"/>
+    </linearGradient>
+
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#34d399"/>
+    </linearGradient>
+
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0.8"/>
+    </linearGradient>
+
+    <linearGradient id="glowPulse" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.2"/>
+      <stop offset="50%" stop-color="#a855f7" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <radialGradient id="radialCyan" cx="20%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#0ea5e9" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#070b14" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="radialIndigo" cx="80%" cy="70%" r="60%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#070b14" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="radialEmerald" cx="50%" cy="90%" r="45%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#070b14" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Drop Shadows and Filters -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" stroke-width="0.75" stroke-opacity="0.25"/>
+      <circle cx="40" cy="40" r="1" fill="#38bdf8" fill-opacity="0.3"/>
+    </pattern>
+
+    <style>
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.35; transform: scale(1); }
+        50% { opacity: 0.75; transform: scale(1.05); }
+      }
+      @keyframes floatSlow {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-8px); }
+      }
+      @keyframes floatReverse {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(8px); }
+      }
+      @keyframes dashMove {
+        to { stroke-dashoffset: -40; }
+      }
+      @keyframes nodeBlink {
+        0%, 100% { opacity: 0.4; r: 3; }
+        50% { opacity: 1; r: 5; }
+      }
+      .anim-pulse { animation: pulseGlow 6s ease-in-out infinite; transform-origin: center; }
+      .anim-float1 { animation: floatSlow 5s ease-in-out infinite; }
+      .anim-float2 { animation: floatReverse 6s ease-in-out infinite; }
+      .anim-dash { stroke-dasharray: 6 6; animation: dashMove 2.5s linear infinite; }
+      .anim-node1 { animation: nodeBlink 3s ease-in-out infinite; }
+      .anim-node2 { animation: nodeBlink 3s ease-in-out infinite 1.5s; }
+      .pill { transition: all 0.3s ease; }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="380" fill="url(#bgGrad)" rx="16"/>
+  <rect width="1200" height="380" fill="url(#grid)" rx="16"/>
+
+  <!-- Dynamic Ambient Lighting -->
+  <circle cx="200" cy="120" r="260" fill="url(#radialCyan)" class="anim-pulse"/>
+  <circle cx="1000" cy="240" r="300" fill="url(#radialIndigo)" class="anim-pulse" style="animation-delay: 2s;"/>
+  <circle cx="600" cy="340" r="240" fill="url(#radialEmerald)" class="anim-pulse" style="animation-delay: 4s;"/>
+
+  <!-- Left Dynamic Genomic Flow / DNA Motif (Background decoration - non-interfering) -->
+  <g opacity="0.6" class="anim-float1">
+    <path d="M 50 80 Q 90 120 130 80 T 210 80" fill="none" stroke="#38bdf8" stroke-width="2" stroke-opacity="0.4"/>
+    <path d="M 50 120 Q 90 80 130 120 T 210 120" fill="none" stroke="#818cf8" stroke-width="2" stroke-opacity="0.4"/>
+    <line x1="70" y1="95" x2="70" y2="105" stroke="#38bdf8" stroke-width="1.5" stroke-opacity="0.5"/>
+    <line x1="110" y1="95" x2="110" y2="105" stroke="#34d399" stroke-width="1.5" stroke-opacity="0.5"/>
+    <line x1="150" y1="95" x2="150" y2="105" stroke="#818cf8" stroke-width="1.5" stroke-opacity="0.5"/>
+    <line x1="190" y1="95" x2="190" y2="105" stroke="#38bdf8" stroke-width="1.5" stroke-opacity="0.5"/>
+    <circle cx="90" cy="100" r="3" fill="#38bdf8" class="anim-node1"/>
+    <circle cx="170" cy="100" r="3" fill="#34d399" class="anim-node2"/>
+  </g>
+
+  <!-- Right Dynamic Data Stream Motif (Background decoration - non-interfering) -->
+  <g opacity="0.6" class="anim-float2">
+    <path d="M 990 70 Q 1030 110 1070 70 T 1150 70" fill="none" stroke="#818cf8" stroke-width="2" stroke-opacity="0.4"/>
+    <path d="M 990 110 Q 1030 70 1070 110 T 1150 110" fill="none" stroke="#34d399" stroke-width="2" stroke-opacity="0.4"/>
+    <line x1="1010" y1="85" x2="1010" y2="95" stroke="#818cf8" stroke-width="1.5" stroke-opacity="0.5"/>
+    <line x1="1050" y1="85" x2="1050" y2="95" stroke="#38bdf8" stroke-width="1.5" stroke-opacity="0.5"/>
+    <line x1="1090" y1="85" x2="1090" y2="95" stroke="#34d399" stroke-width="1.5" stroke-opacity="0.5"/>
+    <line x1="1130" y1="85" x2="1130" y2="95" stroke="#818cf8" stroke-width="1.5" stroke-opacity="0.5"/>
+    <circle cx="1030" cy="90" r="3" fill="#818cf8" class="anim-node2"/>
+    <circle cx="1110" cy="90" r="3" fill="#38bdf8" class="anim-node1"/>
+  </g>
+
+  <!-- Animated Pipeline Flow Line (Across the bottom, well below text) -->
+  <g transform="translate(100, 310)">
+    <!-- Pipeline Track -->
+    <line x1="20" y1="20" x2="980" y2="20" stroke="#334155" stroke-width="2" stroke-opacity="0.5"/>
+    <line x1="20" y1="20" x2="980" y2="20" stroke="#38bdf8" stroke-width="2" stroke-opacity="0.8" class="anim-dash"/>
+
+    <!-- Pipeline Step 1 -->
+    <rect x="0" y="6" width="150" height="28" rx="14" fill="#0f172a" stroke="#38bdf8" stroke-width="1.2"/>
+    <circle cx="15" cy="20" r="4" fill="#38bdf8" class="anim-node1"/>
+    <text x="82" y="25" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" text-anchor="middle">🧬 FASTQ / Raw Reads</text>
+
+    <!-- Pipeline Step 2 -->
+    <rect x="210" y="6" width="150" height="28" rx="14" fill="#0f172a" stroke="#60a5fa" stroke-width="1.2"/>
+    <circle cx="225" cy="20" r="4" fill="#60a5fa"/>
+    <text x="292" y="25" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" text-anchor="middle">⚡ Read Alignment</text>
+
+    <!-- Pipeline Step 3 -->
+    <rect x="420" y="6" width="160" height="28" rx="14" fill="#0f172a" stroke="#818cf8" stroke-width="1.2"/>
+    <circle cx="435" cy="20" r="4" fill="#818cf8" class="anim-node2"/>
+    <text x="507" y="25" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" text-anchor="middle">🔬 Variant Calling</text>
+
+    <!-- Pipeline Step 4 -->
+    <rect x="640" y="6" width="150" height="28" rx="14" fill="#0f172a" stroke="#a78bfa" stroke-width="1.2"/>
+    <circle cx="655" cy="20" r="4" fill="#a78bfa"/>
+    <text x="722" y="25" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" text-anchor="middle">📊 Annotation &amp; QC</text>
+
+    <!-- Pipeline Step 5 -->
+    <rect x="850" y="6" width="150" height="28" rx="14" fill="#0f172a" stroke="#34d399" stroke-width="1.2"/>
+    <circle cx="865" cy="20" r="4" fill="#34d399" class="anim-node1"/>
+    <text x="932" y="25" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" text-anchor="middle">💊 Clinical Insights</text>
+  </g>
+
+  <!-- Dynamic Badges / Category Pills (Floating Above Title with safe margin) -->
+  <g transform="translate(600, 52)" text-anchor="middle" class="anim-float1">
+    <!-- Center Tag Badge -->
+    <rect x="-190" y="0" width="380" height="30" rx="15" fill="#1e293b" fill-opacity="0.85" stroke="#38bdf8" stroke-width="1.2" stroke-opacity="0.6"/>
+    <circle cx="-165" cy="15" r="4" fill="#34d399" class="anim-node1"/>
+    <text x="5" y="19" fill="#93c5fd" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1">🧬 BIOINFORMATICS &amp; GENOMIC DATA ECOSYSTEM</text>
+  </g>
+
+  <!-- ==================== FOREGROUND: TITLE & SUBTITLE ==================== -->
+  <!-- Ensured completely unobstructed and crystal clear -->
+  <g transform="translate(600, 142)" text-anchor="middle" filter="url(#softShadow)">
+    <text x="0" y="0" fill="url(#titleGrad)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="44" font-weight="900" letter-spacing="-0.5">
+      Awesome Genomic Analysis Tools
+    </text>
+  </g>
+
+  <g transform="translate(600, 186)" text-anchor="middle">
+    <text x="0" y="0" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="18" font-weight="600" letter-spacing="0.2">
+      Curated Directory of Next-Generation Sequencing (NGS), Variant Discovery &amp; Bioinformatics Pipelines
+    </text>
+  </g>
+
+  <g transform="translate(600, 218)" text-anchor="middle">
+    <text x="0" y="0" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="400">
+      Enterprise SaaS Platforms • Leading Open-Source Repositories • Clinical Precision Medicine Workflows
+    </text>
+  </g>
+
+  <!-- Secondary Category Badges Row (Below Subtitle, Above Pipeline Flow) -->
+  <g transform="translate(600, 260)" text-anchor="middle">
+    <g transform="translate(-360, 0)">
+      <rect x="-65" y="-12" width="130" height="24" rx="12" fill="#1e293b" stroke="#38bdf8" stroke-width="0.8" stroke-opacity="0.6"/>
+      <text x="0" y="4" fill="#bae6fd" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="600">⚡ WGS / WES</text>
+    </g>
+    <g transform="translate(-180, 0)">
+      <rect x="-65" y="-12" width="130" height="24" rx="12" fill="#1e293b" stroke="#818cf8" stroke-width="0.8" stroke-opacity="0.6"/>
+      <text x="0" y="4" fill="#c7d2fe" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="600">🔬 Variant Calling</text>
+    </g>
+    <g transform="translate(0, 0)">
+      <rect x="-65" y="-12" width="130" height="24" rx="12" fill="#1e293b" stroke="#a855f7" stroke-width="0.8" stroke-opacity="0.6"/>
+      <text x="0" y="4" fill="#e9d5ff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="600">🧬 RNA-Seq &amp; Omics</text>
+    </g>
+    <g transform="translate(180, 0)">
+      <rect x="-70" y="-12" width="140" height="24" rx="12" fill="#1e293b" stroke="#34d399" stroke-width="0.8" stroke-opacity="0.6"/>
+      <text x="0" y="4" fill="#a7f3d0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="600">🤖 AI Secondary Analysis</text>
+    </g>
+    <g transform="translate(360, 0)">
+      <rect x="-70" y="-12" width="140" height="24" rx="12" fill="#1e293b" stroke="#f59e0b" stroke-width="0.8" stroke-opacity="0.6"/>
+      <text x="0" y="4" fill="#fde68a" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="600">🔄 Pipeline Orchestration</text>
+    </g>
+  </g>
+
+  <!-- Border Frame Glow -->
+  <rect x="1" y="1" width="1198" height="378" rx="15" fill="none" stroke="url(#accentGrad)" stroke-width="1.5" stroke-opacity="0.4"/>
+</svg>
